@@ -1,0 +1,73 @@
+.hierarchyExpandedContainer {
+  width: 100%;
+
+  .expandedLeftSection {
+    height: 100%;
+    border-right: 1px solid #e5e5e5;
+
+    .expandlable-input-field-wrapper {
+      display: flex;
+      padding: 5px 0px;
+      border-bottom: 1px solid #e5e5e5;
+
+      .expandable-drop-down {
+        margin: 0px 5px;
+      }
+
+      .ant-select-selection-placeholder {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .expandable-formulary-list-search {
+      width: 425px;
+      height: 39px;
+      border-radius: 3px;
+      margin: 0px 5px;
+    }
+
+    .ant-select-selector {
+      height: 39px !important;
+    }
+
+    .expandable-formulary-type-dropdown {
+      width: 270px;
+    }
+  }
+  .expandedRightSection {
+    height: 100%;
+
+    .tabsInnerSection {
+      width: 100%;
+      height: 674px;
+      float: left;
+    }
+  }
+}
+
+.hierarchyExpandedContainer {
+  border: 1px solid #e5e5e5;
+
+  .expandable-hierarchy-tree-body {
+    border-top: none !important;
+  }
+
+  .expandable-tree {
+    margin-top: 0px;
+
+    .expandable-hierarchy-tree-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+    }
+  }
+
+  .hierarchy-tree-container .hierarchy-tree-wrapper .hierarchy-tree-sidebar h6 {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .hierarchy-tree-container .hierarchy-tree-wrapper .hierarchy-tree-sidebar {
+    height: 750px;
+  }
+}

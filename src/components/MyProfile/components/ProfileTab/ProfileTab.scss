@@ -1,0 +1,17 @@
+.tabs-container {
+  padding-left: 60px;
+
+  .frx-tabs-root {
+    border-top: 1px solid #c4c4c4;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+
+  .ant-tabs-nav-wrap {
+    border-bottom: 5px solid #ffffff;
+  }
+
+  .profile-inner-content-wrapper {
+    margin-top: 20px;
+  }
+}

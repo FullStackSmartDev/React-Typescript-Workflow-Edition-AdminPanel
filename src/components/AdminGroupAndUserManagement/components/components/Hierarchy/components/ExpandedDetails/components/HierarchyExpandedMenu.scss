@@ -1,0 +1,277 @@
+.hierarchyInformationContainer {
+  margin: 45px 0px 24px 24px;
+  width: 80%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #666666;
+
+  .boldText {
+    font-weight: bold;
+    // line-height: 14px;
+  }
+  .basicInfoWrapper {
+    float: left;
+    width: 100%;
+    height: 20px;
+    &.setTopMargin {
+      margin-top: 26px;
+    }
+    .coln-1 {
+      text-align: left;
+      float: left;
+      width: 66px;
+    }
+    .coln-2 {
+      text-align: left;
+      float: left;
+      width: 121px;
+    }
+    .coln-3 {
+      text-align: left;
+      float: left;
+      width: 121px;
+      margin-left: 19px;
+      line-height: 20px;
+      text-transform: capitalize;
+      color: #707683;
+    }
+  }
+
+  .info-lob-detail-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    float: left;
+    margin-top: 25px;
+  }
+
+  .infoDetailsWrapper {
+    // float: left;
+    //  width: 78%;
+    // height: 100%;
+    // margin-top: 22px;
+
+    .typeRowWrapper {
+      line-height: 20px;
+      float: left;
+      width: 100%;
+      height: 20px;
+      &.setTopMargin {
+        margin-top: 6px;
+      }
+      .boldText {
+        line-height: 20px;
+      }
+      .coln-1 {
+        text-align: left;
+        float: left;
+        width: 92px;
+      }
+      .coln-2 {
+        text-align: left;
+        float: left;
+        width: 121px;
+      }
+    }
+    .effectiveDateRowWrapper {
+      line-height: 20px;
+      float: left;
+      width: 100%;
+      height: 20px;
+      .boldText {
+        line-height: 20px;
+      }
+      &.setTopMargin {
+        margin-top: 30px;
+      }
+      &.setMargin {
+        margin-top: 19px;
+      }
+      .coln-1 {
+        text-align: left;
+        float: left;
+        width: 110px;
+      }
+      .coln-2 {
+        text-align: left;
+        float: left;
+        width: 121px;
+      }
+    }
+    .primaryInfoLabel {
+      text-align: left;
+      line-height: 20px;
+      float: left;
+      width: 100%;
+      height: 20px;
+      margin: 34px 0px 28px 0px;
+    }
+
+    .primaryInfoWrapper {
+      float: left;
+      width: 100%;
+      height: 20px;
+      &.setTopMargin {
+        margin-top: 20px;
+      }
+
+      .coln-1 {
+        text-align: left;
+        float: left;
+        width: 65px;
+      }
+      .coln-2 {
+        text-align: left;
+        float: left;
+        width: 189px;
+      }
+    }
+  }
+
+  .lobDetailsWrapper {
+    // float: left;
+    //  margin-top: 22px;
+    //  width: 22%;
+    // height: 100%;
+
+    .lob {
+      .group {
+        display: flex;
+        margin-top: 10px;
+      }
+
+      .hidden {
+        visibility: hidden;
+      }
+
+      h4 {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 16px;
+        color: #707683;
+      }
+
+      h5 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #666666;
+        padding-left: 25px;
+      }
+
+      h6 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        padding-left: 25px;
+        color: #2055b5;
+      }
+    }
+
+    span {
+      border-radius: 10px;
+      padding: 0px 12px;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .purple {
+      background: #684999;
+    }
+
+    .yellow {
+      background: #f4af64;
+    }
+
+    .pink {
+      background: #f89090;
+    }
+
+    .grey {
+      background: #707683;
+    }
+  }
+}
+.hierarchyModulesContainer {
+  margin: 45px 0px 24px 24px;
+  width: 80%;
+  .tree-node-tag-list {
+    display: block;
+    margin-left: 0px;
+  }
+  .hierarchy-tag {
+    margin-top: 26px;
+    width: fit-content;
+  }
+  .hierarchy-tag:hover {
+    cursor: pointer;
+  }
+}
+
+.hierarchySummaryContainer {
+  // width: 100%;
+  // height: 100%;
+
+  .summaryGridWrapper {
+    width: 477px;
+    height: 725px;
+    overflow-y: scroll;
+    background: #ffffff;
+    // border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}
+
+.hierarchySummaryContainer {
+  .summaryGridWrapper {
+    .ant-table-cell {
+      border: 1px solid #e5e5e5 !important;
+    }
+
+    .frx-grid-cell {
+      color: #1d54b4 !important;
+      font-weight: 500 !important;
+      float: left !important;
+      padding-left: 15px !important;
+    }
+
+    .ant-table-body {
+      overflow: hidden !important;
+    }
+
+    .frx-grid-container
+      .frx-grid
+      .frx-grid__grid-block
+      .frx-grid__grid-block__table-block
+      .ant-table
+      .ant-table-body {
+      overflow: hidden !important;
+      max-height: fit-content !important;
+    }
+  }
+}
+
+.summary-expandable-container {
+  th.ant-table-cell {
+    padding: 15px 0px !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+    color: #1d54b4 !important;
+  }
+
+  .ant-table table {
+    width: 79% !important;
+    padding: 0px 15px !important;
+  }
+}

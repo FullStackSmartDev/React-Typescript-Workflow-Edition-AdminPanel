@@ -1,0 +1,70 @@
+.Comment-card {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.Comment-card .title {
+  color: #333 !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  padding: 0 !important;
+}
+
+.Comment-card .date {
+  color: #a3a3a3;
+  font-size: 11px;
+  text-align: left;
+}
+
+.no-avatar {
+  border-radius: 50%;
+  height: 29px;
+  width: 29px;
+  border: 1px dashed #666666;
+}
+
+.empty-avatar {
+  color: grey;
+}
+.multi-avatar {
+  display: inline-flex;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -40px;
+  font-size: smaller;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

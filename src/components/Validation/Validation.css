@@ -1,0 +1,67 @@
+@import "../../assets/style.scss";
+.validation .title {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #1d54b4;
+  padding: 37px 0px 0px 40px;
+}
+
+.validation .container {
+  padding: 27px 40px 60px 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.collapse {
+  margin-bottom: 13px;
+}
+
+.custom {
+  background-color: white;
+}
+
+.custom .ant-collapse-content-box {
+  padding: 0;
+}
+
+.divider {
+  background-color: #dbdbdb;
+  height: 1px;
+  border: 0;
+}
+
+.row {
+  background-color: #f9f9f9;
+  max-height: 500px;
+  overflow-y: none;
+}
+
+.col-1 {
+  padding: 20px;
+  min-height: 500px;
+}
+
+.col-1 > .scrolling {
+  padding: 10px;
+  height: 460px;
+  overflow: scroll;
+}
+.col-2 {
+  padding: 25px;
+  min-height: 500px;
+  background-color: white;
+}
+
+.col-2 > .scrolling {
+  padding: 10px;
+  height: 400px;
+  overflow: scroll;
+}
+.comment {
+  border-top: 1px solid #dbdbdb;
+}

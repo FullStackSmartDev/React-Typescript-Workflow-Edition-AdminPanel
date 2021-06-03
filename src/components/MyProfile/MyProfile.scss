@@ -1,0 +1,205 @@
+.myprofile-container {
+  background: #ffffff;
+  min-width: 1200px;
+  margin: 30px 60px;
+  margin-top: 15px;
+  padding: 75px 0px 40px 40px;
+
+  .user-basic-information-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 7fr 2fr;
+  }
+
+  .user-information {
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+
+  .user-name-status,
+  .rating-contact-wrapper {
+    display: flex;
+  }
+
+  .user-name {
+    h4 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      color: #323c47;
+    }
+    h6 {
+      font-size: 14px;
+      line-height: 16px;
+      color: #707683;
+    }
+  }
+
+  .user-status {
+    margin-left: 20px;
+
+    .green {
+      background: #59b35e;
+      border-radius: 12px;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 2px 10px;
+      height: 24px;
+    }
+
+    .blue {
+      background: #1077b0;
+      border-radius: 12px;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 2px 10px;
+      height: 24px;
+      margin-left: 10px;
+    }
+  }
+
+  .rating-contact-wrapper {
+    margin: 25px 0px;
+
+    .raing {
+      margin-right: 50px;
+
+      h6 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #707683;
+      }
+    }
+
+    .user-contact {
+      margin-left: 80px;
+
+      .email-wrapper {
+        svg {
+          margin-right: 10px;
+        }
+
+        span {
+          font-size: 14px;
+          line-height: 16px;
+          color: #707683;
+        }
+
+        .email-id {
+          font-size: 12px !important;
+          line-height: 24px !important;
+          text-decoration-line: underline !important;
+          color: #1d54b4 !important;
+          margin-left: 10px !important;
+        }
+      }
+
+      .phone-wrapper {
+        svg {
+          margin-right: 10px;
+        }
+
+        span {
+          font-size: 14px;
+          line-height: 16px;
+          color: #707683;
+        }
+
+        .phone-numner {
+          margin-left: 10px !important;
+          font-weight: 500 !important;
+          font-size: 14px !important;
+          line-height: 16px !important;
+          color: #323c47 !important;
+        }
+      }
+    }
+  }
+
+  .toggle-btn-wrapper {
+    h6 {
+      color: #707683;
+      font-size: 12px;
+    }
+    span {
+      font-size: 14px;
+      line-height: 50px;
+      text-transform: uppercase;
+      color: #666666;
+    }
+    .ant-switch-checked {
+      margin: 0px 10px;
+      background: #1d54b4 !important;
+    }
+  }
+
+  .edit-icon {
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 40px;
+  }
+
+  .user-login-and-tabs-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2.8fr 8.5fr 0.4fr;
+
+    .last-login-container {
+      border: 1px solid #c4c4c4;
+      box-sizing: border-box;
+      border-radius: 26px;
+      padding: 20px 25px;
+
+      h5 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #707683;
+      }
+
+      h4 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #707683;
+        margin-top: 20px;
+      }
+
+      h3 {
+        font-size: 18px;
+        line-height: 21px;
+        color: #323c47;
+        margin-bottom: 30px;
+      }
+
+      .created-updated-date {
+        display: flex;
+
+        span {
+          padding-left: 35px;
+          font-size: 14px;
+          line-height: 16px;
+          color: #323c47;
+          font-weight: 500;
+        }
+
+        .last-updated {
+          padding-left: 21px !important;
+        }
+      }
+
+      .password-reset {
+        display: flex;
+
+        span {
+          padding-left: 20px;
+          font-size: 14px;
+          line-height: 16px;
+          color: #323c47;
+          font-weight: 500;
+        }
+
+        .next-password-reset {
+          padding-left: 16px !important;
+        }
+      }
+    }
+  }
+}

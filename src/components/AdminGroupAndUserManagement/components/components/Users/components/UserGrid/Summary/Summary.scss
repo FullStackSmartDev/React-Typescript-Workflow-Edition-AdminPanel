@@ -1,0 +1,30 @@
+.summary-component-container {
+  padding-bottom: 20px;
+  .ant-collapse-panel-customization {
+    background-color: white;
+    .ant-collapse-content-box {
+      padding: 0 !important;
+    }
+
+    .access-border-remove {
+      .access-container {
+        border: 0px;
+      }
+    }
+    // .roles-container {
+    //   border: 0px;
+    // }
+
+    .usergroup-container {
+      border: 10px;
+    }
+  }
+
+  .collapse-title {
+    color: #1f54b5 !important;
+    font-weight: 500 !important;
+    font-size: 14px;
+    line-height: 8px;
+    margin-top: 14px;
+  }
+}

@@ -1,0 +1,110 @@
+.ip-override-grid-container {
+padding-left: 15px;
+padding-right: 15px;
+}
+.ip-override-grid-container {
+  .grid-container-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+      margin-top: 15px;
+      padding-right: 15px;
+    .ipText{
+      margin-top: 20px !important;
+    }
+    .grid-name-fields-wrapper {
+      display: flex;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    span {
+      text-transform: uppercase;
+      color: #1d54b4;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+    }
+    button {
+      align-items: center;
+      padding: 10px 20px !important;
+      /*position: absolute;*/
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      width: 165px;
+      height: 34px;
+      /*left: 274px;*/
+      /*top: 93px;*/
+      /* White */
+      background: #FFFFFF;
+      /* Main Blue */
+      border: 1px solid #1D54B4;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+    .marginRight{
+      margin-right: 10px;
+    }
+    input {
+      width: 171px !important;
+      height: 32px !important;
+      border: 1px solid #e5e5e5;
+      margin-left: 70px;
+    }
+
+    .ip-dropdown {
+      width: 171px !important;
+      height: 35px !important;
+      margin-left: 10px;
+    }
+
+    .action-btn {
+      justify-content: flex-end;
+
+      .add-new-ip-override {
+        border: 1px solid #1d54b4;
+        border-radius: 5px;
+        padding: 1px 15px;
+      }
+
+      span {
+        font-weight: normal;
+        text-transform: capitalize;
+      }
+
+      .add-new-ip-override:hover {
+        background: #ffffff;
+      }
+    }
+  }
+
+  .frx-grid__grid-block {
+    padding: 10px 0px;
+  }
+
+  .input-link {
+    text-decoration: underline dotted !important;
+    color: #1d54b4;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    margin-top: 18px;
+  }
+
+  .ip-grid-container {
+    margin-top: -10px;
+    .ant-popover-arrow {
+      visibility: hidden;
+    }
+    .frx-grid__grid-block{
+      padding: 0px !important;
+    }
+    table{
+      border-spacing: 0px !important;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.tz-container{
+
+
+    position: absolute;
+width: 737px;
+height: 486px;
+left: 20px;
+top: 85px;
+
+
+    border: 1px solid #E5E5E5;
+box-sizing: border-box;
+
+font-size: 12px;
+line-height: 14.06px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+font-weight: 400;
+color: #323C47;
+
+.inner-container{
+margin: 20px;
+    .title{
+        color: #1D54B4;
+        font-weight: 500;
+        
+    }
+    div{
+        margin-top: 16px;
+    }
+    input{
+        
+        
+padding: 8px 20px 8px 10px;
+
+width: 44px;
+height: 36px;
+
+background: #FFFFFF;
+/* Main Gray */
+
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 3px;
+    }
+
+    .timeout-input{
+        input{
+            float: none;
+        }
+    }
+    
+}
+
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: #fff;
+    color: #666;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    bottom: 25px;
+    z-index: 1;
+    margin-left: -60px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  .custom-action-btn {
+    color: #ffffff;
+    background: #2055b5;
+    border: 1px solid #2055b5;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    position: absolute;
+right:    5%;
+bottom:   5%;
+  }

@@ -1,0 +1,92 @@
+.note-container {
+  .write-comment {
+    margin-bottom: 35px;
+    span {
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      color: #707683;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    input {
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+      height: 65px;
+      width: 351px;
+      display: block;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    button {
+      background: #2055b5;
+      border-radius: 3px;
+      padding: 1px;
+      float: right;
+      margin-top: 10px;
+      span {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 35px;
+        text-transform: capitalize;
+        color: #ffffff;
+        margin-bottom: 0px;
+      }
+    }
+
+    button:hover {
+      background: #2055b5;
+      border-radius: 3px;
+      span {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 35px;
+        text-transform: capitalize;
+        color: #ffffff;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .comment-wrapper {
+    border: 1px solid #e5e5e5;
+    margin-top: 5px;
+    border-radius: 5px;
+    .name-date-img {
+      display: grid;
+      grid-template-columns: 0.5fr 5fr;
+      padding: 20px 10px;
+
+      .date-comment {
+        padding-left: 20px;
+      }
+      span {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #323c47;
+        padding-right: 12px;
+      }
+
+      p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #323c47;
+        max-width: 240px;
+      }
+
+      .dated {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+      }
+    }
+  }
+}

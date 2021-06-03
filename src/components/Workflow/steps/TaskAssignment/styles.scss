@@ -1,0 +1,124 @@
+.task-assignment-container {
+  padding: 20px;
+
+  .input-label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #707683;
+  }
+
+  .radio-field-group {
+    margin-top: 10px;
+    display: flex;
+
+    .radio-field {
+      margin-right: 20px;
+    }
+  }
+
+  .assignment-conditions {
+    display: flex;
+    margin-top: 24px;
+    margin-top: 24px;
+    justify-content: space-between;
+
+    .condition-field {
+      .label-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        color: #707683;
+      }
+
+      &__text {
+        height: 42px;
+        width: 60px;
+        margin: 0 11px;
+      }
+    }
+  }
+
+  .criteria-container {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    margin-top: 24px;
+
+    .criteria-content {
+      display: grid;
+      grid-template-columns: 282px 1fr;
+      height: 437px;
+
+      &__left {
+        height: 100%;
+        padding: 20px;
+        border-right: 1px solid #E5E5E5;
+
+        .drop-down-field-container {
+          width: 242px;
+          margin-bottom: 20px;
+
+          .ant-select {
+            width: 100%;
+          }
+        }
+      }
+
+      &__right {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        .tags-container {
+          display: flex;
+          flex-wrap: wrap;
+
+          .tag {
+            margin-right: 12px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px 10px;
+            height: 24px;
+            background: #707683;
+            border-radius: 15px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+            color: #F9F9F9;
+          }
+        }
+      }
+    }
+  }
+
+  .criteria-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 24px;
+
+    &__text {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.5px;
+      border-bottom: 1px dashed #2055B5;
+      color: #2055B5;
+      margin-left: 8px;
+    }
+  }
+
+}

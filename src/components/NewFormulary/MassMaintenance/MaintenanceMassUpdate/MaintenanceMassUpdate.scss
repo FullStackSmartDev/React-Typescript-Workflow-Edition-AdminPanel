@@ -1,0 +1,110 @@
+// @import "./../../../assets/style.scss";
+@import "../../../../assets/style";
+.MaintenanceMassUpdate {
+  margin-top: 10px;
+  padding: 0 10px;
+  border: 1px solid #e5e5e5;
+
+  .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+     background-color: #1890ff !important; 
+}
+
+.SearchBox {  
+  height: 35px !important;
+}
+.SearchBox > input{
+  border-radius: 3px !important;
+  padding-left: 23px !important;
+  border-color: #e5e5e5 !important;
+}
+
+.SearchBox > input::placeholder{
+  //font-size: 12px !important;
+  font-weight: normal;
+}
+.SearchBox > .SearchBox-Icon { 
+  top: 8px !important;
+}
+.field-container{
+  margin-right: 10px;
+  width: 170px !important;
+}
+  .mass-maintenance-update-grid {
+    // ####### START TABLE ##########
+    .frx-grid-container {
+      .frx-grid {
+        .frx-grid__grid-block {
+          padding: 0;
+
+          .frx-grid__grid-block__table-block {
+            .ant-table {
+              .ant-table-header {
+                border: 1px solid #e5e5e5;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                // background-color: #fff;
+              }
+              .ant-table-body > table {
+                border-spacing: 0;
+                // background-color: #fff;
+              }
+              .ant-table-body > table > tbody > tr > td {
+                border-radius: 0 !important;
+                // background-color: #fff;
+              }
+
+              .ant-table-body > table > tbody > tr > td:first-child {
+                // padding: 0 18px 0 18px;
+              }
+
+              .ant-table-body > thead {
+                border-radius: 0;
+                // background-color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+    margin-bottom: 10px;
+    // ####### END TABLE ##########
+  }
+  .header-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    height: 50px;
+    .header {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 30px;
+      padding-left: 0px !important;
+      color: #1d54b4;
+    }
+    .dropdown-button-container {
+      display: flex;
+      justify-content: space-between;
+      .dropdown-input {
+        width: 170px;
+        margin-right: 10px;
+      }
+      .addNewButton {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        background: #ffffff;
+        border: 1px solid #1d54b4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #1d54b4;
+        padding: 5px 10px;
+      }
+    }
+  }
+}

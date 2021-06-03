@@ -1,0 +1,26 @@
+.input-without-label {
+    padding-top: 22px;
+}
+.inner-heading {
+    color: #323C47;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding: 20px 20px;
+}
+.label-row {
+    padding: 10px 20px;
+}
+.input-row {
+    padding: 0 20px;
+    .time-complete-dropdown {
+        width: 95%;
+    }
+    .select-box {
+        width: 100%;
+    }
+}
+.pb-20 {
+    padding-bottom: 20px;
+}

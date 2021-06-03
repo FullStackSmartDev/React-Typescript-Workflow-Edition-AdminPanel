@@ -1,0 +1,91 @@
+.outgoing-communication-container {
+  .btn-container{
+    background-color: #ffffff;
+    border: 1px solid #1D54B4;
+    border-radius: 3px;
+    padding: 3px;
+    width: max-content;
+    margin-left: 3%;
+    .rename-btn{
+        background-color: #1D54B4;
+        color: #ffffff;
+        border-radius: 3px;
+        border: #1D54B4;
+        font-weight: bold;
+    }
+} 
+  .content-container{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin: 3%;
+    height: max-content;
+    
+    .avatar-uploader{
+      .ant-upload{
+        width:300px;
+        height: 150px;
+      }
+    }
+    .mlt{
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    .pb{
+      padding-bottom: 10px;
+    }
+    .my{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    p{
+      color: #707683;
+      font-weight: 400;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    span{
+      color: #707683;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  
+    label {
+      color: #666666;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  
+    input {
+      border: 1px solid #e5e5e5;
+    }
+  
+    .outgoing-communication-fields {
+      padding-top: 10px;
+      margin-left: 1%;
+      .ant-form-item {
+        margin-bottom: 0px;
+      }
+    }
+    
+  }
+  .cancel{
+    border: 1px solid #1D54B4;
+    background-color: #ffffff;
+    color: #1D54B4;
+    width: 80px;
+    height: 40px;
+    margin-left: 80%;
+    margin-bottom: 1%;
+    border-radius: 3px;
+  }
+  .save{
+    border: 1px solid #1D54B4;
+    background-color: #1D54B4;
+    color: #ffffff;
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    margin-bottom: 1%;
+    margin-left: 1%;
+  }
+}

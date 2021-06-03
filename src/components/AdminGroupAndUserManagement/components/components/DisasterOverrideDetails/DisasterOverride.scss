@@ -1,0 +1,64 @@
+.disaster-override-grid-container {
+  padding: 10px 0px;
+  .grid-container-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .grid-name-fields-wrapper {
+      display: flex;
+    }
+
+    span {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 30px;
+      color: #1d54b4;
+    }
+
+    input {
+      width: 171px !important;
+      height: 32px !important;
+      border: 1px solid #e5e5e5;
+      margin-left: 70px;
+    }
+
+    .disaster-dropdown {
+      width: 171px !important;
+      height: 35px !important;
+      margin-left: 10px;
+    }
+
+    .action-btn {
+      justify-content: flex-end;
+
+      .add-new-disaster-override {
+        border: 1px solid #1d54b4;
+        border-radius: 5px;
+        padding: 1px 15px;
+      }
+
+      span {
+        font-weight: normal;
+        text-transform: capitalize;
+      }
+
+      .add-new-disaster-override:hover {
+        background: #ffffff;
+      }
+    }
+  }
+
+  .frx-grid__grid-block {
+    padding: 10px 0px;
+  }
+
+  .input-link {
+    text-decoration: underline dotted !important;
+    color: #1d54b4;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    margin-top: 18px;
+  }
+}

@@ -1,0 +1,76 @@
+.historicalClaimProcessingContainer{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 20px;
+    width: 592px;
+    padding-left: 7px;
+
+    .historicalProcessingDetail{
+        margin-top: 70px;
+    }
+    .ant-select-selector{
+        border: none !important;
+    }
+    p {
+        font-size: 14px;
+        line-height: 16px;
+        color: #707683;
+      }
+    
+      .disaster-override-name-wrapper {
+        margin-top: 25px;
+    
+        input {
+          width: 391px;
+          height: 36px;
+          background: #f4f5f7;
+          border: 1px solid #e5e5e5;
+          border-radius: 5px;
+          margin-left: 30px;
+        }
+    
+        label {
+          font-size: 12px;
+          line-height: 16px;
+          color: #000000;
+        }
+      }
+    
+      .disaster-date-wrapper {
+        display: flex;
+        margin-top: 10px;
+    
+        label {
+          display: block;
+          font-size: 12px;
+          line-height: 20px;
+          color: #323C47;
+          text-transform: uppercase;
+          margin-bottom: 6px;
+        }
+
+        .labelBlue{
+            display: block;      
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: #2055B5;
+            margin-bottom: 10px;
+        }
+    
+        .disaster-date-picker {
+          width: 285px;
+          height: 42px;
+          border: 1px solid #C4C4C4;
+          box-sizing: border-box;
+          border-radius: 5px;
+        }
+    
+        .end-date {
+          margin-left: 20px;
+        }
+      }
+}

@@ -1,0 +1,45 @@
+.workflow-setting-container {
+  .workflow-setting-body {
+    padding: 0px 15px;
+    height: 80vh;
+    position: relative;
+
+    .group {
+      padding: 15px 0px;
+
+      .dropdown-input-wrapper {
+        display: flex;
+
+        input {
+          margin-left: 7px;
+          border: 1px solid #e5e5e5;
+          box-sizing: border-box;
+          border-radius: 5px;
+          height: 42px;
+          width: 103px;
+        }
+
+        .time-complete-dropdown {
+          width: 103px;
+          .ant-select-selector {
+            height: 42px;
+          }
+        }
+      }
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.5px;
+      color: #323c47;
+      margin-bottom: 5px;
+
+      .star {
+        color: red;
+        padding: 3px;
+      }
+    }
+  }
+}

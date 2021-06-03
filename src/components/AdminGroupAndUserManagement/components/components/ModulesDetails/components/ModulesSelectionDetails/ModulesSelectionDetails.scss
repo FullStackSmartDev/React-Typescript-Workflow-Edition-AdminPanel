@@ -1,0 +1,56 @@
+.formulary-tabs-info {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.modulesSelectionContainer{
+    font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px !important;
+
+    .modulesSelectionWrapper{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-right: 1px solid #E5E5E5;
+    }        
+    .moduleItemWrapper{        
+        line-height: 35px;
+        height: 35px;
+        &.true{
+            color: #323C47 !important;
+        }
+
+        &.false{
+            color: #707683 !important;
+        }       
+        
+    }
+
+    .custom-checkbox{
+        //border: 2px solid #D5D5D5;
+        box-sizing: border-box;
+        //border-radius: 4px;
+
+        
+    }
+    
+    .applyButtonWrapper{
+        width: 86%;        
+        button{
+            margin-top: 60px;
+            position: relative;
+            float: right;
+            width: 72px;
+            height: 35px;
+            background: #1D54B4;
+            border-radius: 5px;          
+            font-weight: 500;
+            border: none;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+            }
+
+    }
+    
+
+}

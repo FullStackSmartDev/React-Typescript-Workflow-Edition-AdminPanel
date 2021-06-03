@@ -1,0 +1,95 @@
+.permission-container {
+    background-color: #ffffff;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+
+    .title-row {
+        padding: 20px 25px;
+        border-bottom: 1px solid #E5E5E5;
+
+        .arrow_down {
+            float: right;
+        }
+    }
+    .title {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #1D54B4;
+        padding-right: 15px;
+    }
+    .header-row {
+        padding: 15px 0px;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #707683;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .data-row {
+        font-size: 12px;
+        padding: 10px 0px;
+        color: #323C47;
+
+        .date {
+        }
+        .type {
+            font-weight: bold;
+            padding-left: 25px;
+        }
+
+        .ant-checkbox-inner {
+            border-radius: 15px !important;
+            width: 19px;
+            height: 19px;
+        }
+        .ant-checkbox-checked::after {
+            border: none;
+        }
+        .ant-checkbox-checked .ant-checkbox-inner {
+            background-color: #1890ff !important;
+        }
+    }
+}
+
+.table {
+    .ant-table-thead > tr > th {
+        background: #ffffff;
+    }
+    .ant-table-tbody > tr > td {
+        border-bottom: none;
+        padding: 10px 16px;
+    }
+    .ant-checkbox-inner {
+        border-radius: 15px !important;
+        width: 19px !important;
+        height: 19px !important;
+    }
+    // .ant-checkbox-checked::after {
+    //     border: none;
+    // }
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: #1D54B4 !important;
+    }
+    .ant-checkbox-disabled .ant-checkbox-inner {
+        background-color: #C4C4C4 !important;
+    }
+    .ant-table-cell .ant-checkbox-wrapper .ant-checkbox .ant-checkbox-inner {
+        border: 1px solid #1D54B4;
+    }
+    .ant-table-cell .ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner::after {
+        top: 50% !important;
+        left: 25%;
+        width: 4.7px;
+        height: 8.1px;
+    }
+    .ant-checkbox-checked::after {
+        border: none;
+    }
+}
+
+.name {
+    text-align: start !important;
+    padding-left: 15px !important;
+    font-weight: bold !important;
+}

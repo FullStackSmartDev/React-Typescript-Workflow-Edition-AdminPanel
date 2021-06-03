@@ -1,0 +1,70 @@
+.availability-container{
+
+  background: #FFFFFF;
+/* Secondary Gray */
+
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 5px 5px 0px 0px;
+  
+
+      .availibilty-tree-container {
+        
+        overflow: hidden;
+        
+        border: 1px solid #e5e5e5;
+        
+        margin-top: 20px;
+        
+        display: grid;
+        
+        grid-template-columns: 1fr 5fr;
+        
+        border-radius: 5px;
+
+        
+        
+        .identificationTable {
+          
+          border-right: 1px solid #e5e5e5;
+          
+          padding: 20px;
+
+          
+          
+          .identificationTable-header{
+            
+            background: #ECF5FA;
+              
+            span{
+                
+                font-style: normal;
+                
+                font-weight: normal;
+                
+                font-size: 12px;
+                
+                line-height: 24px;
+                
+                /* identical to box height, or 200% */
+                
+                color: #707683, 100%;
+                
+                text-transform: uppercase;
+              
+              }
+          
+            }
+        
+        }
+
+        
+        
+        .availibilty-tree {
+          
+          padding: 20px;
+        
+        }
+
+      }
+    }

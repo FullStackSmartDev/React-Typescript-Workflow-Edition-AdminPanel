@@ -1,0 +1,281 @@
+@import "./../../assets/style.scss";
+.csr-root {
+  .formulary-root {
+    min-width: 1200px;
+    margin: 30px 60px;
+    margin-top: 15px;
+    .formulary-tabs-info {
+      padding: 15px 20px 20px;
+    }
+    .formulary-root-divider {
+      height: 10px;
+      width: 100%;
+      background: #eef3f7;
+    }
+    .frx-mini-tabs-root {
+      position: unset;
+      border-bottom: 0px solid #e5e5e5;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-sizing: border-box;
+      box-shadow: none;
+      background: #ffffff;
+      padding: 0;
+      min-width: 122px;
+      min-height: 30px;
+      .frx-mini-tabs-root__tabs {
+        background-color: #ffffff;
+        box-shadow: none;
+        border: 1px solid #2055b5;
+        flex-direction: row;
+        border-radius: 4px;
+        padding: 3px;
+        min-height: 24px;
+        min-width: 61px;
+        width: max-content;
+        .frx-mini-tabs-root__tabs__tab {
+          padding: 0;
+          font-size: 12px;
+          min-height: 24px;
+          min-width: 61px;
+          font-weight: bold;
+          color: #666666;
+          text-transform: capitalize;
+          opacity: unset;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+label.custom-checkbox {
+  &.mb-16 {
+    margin-bottom: 16px;
+  }
+  span.ant-checkbox {
+    margin-left: 0;
+    padding-top: 0;
+    span.ant-checkbox-inner {
+      margin-left: 0;
+      border: 2px solid #d5d5d5;
+      border-radius: 4px;
+    }
+    + span {
+      font-size: 12px;
+      color: #323c47;
+      padding-left: 0;
+      margin-left: 10px;
+      line-height: 16px;
+      text-transform: none;
+    }
+  }
+  &:hover,
+  .ant-checkbox:hover {
+    .ant-checkbox-inner {
+      border-color: #2055b5;
+    }
+  }
+  .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #d5d5d5;
+  }
+  span.ant-checkbox-checked {
+    .ant-checkbox-inner {
+      background: #2055b5;
+      border-color: #2055b5 !important;
+    }
+    &:after {
+      display: none;
+    }
+  }
+}
+.ant-table-row-expand-icon-cell {
+  position: sticky !important;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.input-link {
+  margin-top: 0px !important;
+  cursor: pointer;
+}
+
+.formulary-step {
+  width: 30.04px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f55b6;
+  border-radius: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  height: 35px;
+  border-radius: 3px;
+}
+.ant-table-cell {
+  .frx-mini-tabs-root {
+    position: unset;
+    border-bottom: 0px solid #e5e5e5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: none;
+    background: #ffffff;
+    padding: 0;
+    min-width: 122px;
+    min-height: 30px;
+    .frx-mini-tabs-root__tabs {
+      background-color: #ffffff;
+      box-shadow: none;
+      border: 1px solid #2055b5;
+      flex-direction: row;
+      border-radius: 4px;
+      padding: 3px;
+      min-height: 24px;
+      min-width: 61px;
+      width: max-content;
+      .frx-mini-tabs-root__tabs__tab {
+        padding: 0;
+        font-size: 12px;
+        min-height: 24px;
+        min-width: 61px;
+        font-weight: bold;
+        color: #666666;
+        text-transform: capitalize;
+        opacity: unset;
+        border-radius: 2px;
+      }
+    }
+  }
+}
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+@-webkit-keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@-webkit-keyframes snowflakes-shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px);
+  }
+}
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes snowflakes-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(80px);
+  }
+}
+.snowflake {
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+  -webkit-animation-duration: 10s, 3s;
+  -webkit-animation-timing-function: linear, ease-in-out;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-play-state: running, running;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 3s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-play-state: running, running;
+}
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s;
+}
+.snowflake:nth-of-type(1) {
+  left: 10%;
+  -webkit-animation-delay: 1s, 1s;
+  animation-delay: 1s, 1s;
+}
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  -webkit-animation-delay: 6s, 0.5s;
+  animation-delay: 6s, 0.5s;
+}
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  -webkit-animation-delay: 4s, 2s;
+  animation-delay: 4s, 2s;
+}
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  -webkit-animation-delay: 2s, 2s;
+  animation-delay: 2s, 2s;
+}
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  -webkit-animation-delay: 8s, 3s;
+  animation-delay: 8s, 3s;
+}
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  -webkit-animation-delay: 6s, 2s;
+  animation-delay: 6s, 2s;
+}
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  -webkit-animation-delay: 2.5s, 1s;
+  animation-delay: 2.5s, 1s;
+}
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  -webkit-animation-delay: 1s, 0s;
+  animation-delay: 1s, 0s;
+}
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  -webkit-animation-delay: 3s, 1.5s;
+  animation-delay: 3s, 1.5s;
+}
+.snowflake:nth-of-type(10) {
+  left: 25%;
+  -webkit-animation-delay: 2s, 0s;
+  animation-delay: 2s, 0s;
+}
+.snowflake:nth-of-type(11) {
+  left: 65%;
+  -webkit-animation-delay: 4s, 2.5s;
+  animation-delay: 4s, 2.5s;
+}

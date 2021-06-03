@@ -1,0 +1,74 @@
+@import "./../../assets/style.scss";
+.csr-root {
+  .formulary-root {
+    min-width: 1200px;
+    margin: 30px 60px;
+    .formulary-tabs-info {
+      // padding: 15px 20px 20px;
+    }
+    .frx-mini-tabs-root {
+      position: unset;
+      border-bottom: 0px solid #e5e5e5;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-sizing: border-box;
+      box-shadow: none;
+      background: #ffffff;
+      padding: 0;
+      min-width: 122px;
+      min-height: 30px;
+      .frx-mini-tabs-root__tabs {
+        background-color: #ffffff;
+        box-shadow: none;
+        border: 1px solid #2055b5;
+        flex-direction: row;
+        border-radius: 4px;
+        padding: 3px;
+        min-height: 24px;
+        min-width: 61px;
+        width: max-content;
+        .frx-mini-tabs-root_tabs_tab {
+          padding: 0;
+          font-size: 12px;
+          min-height: 24px;
+          min-width: 61px;
+          font-weight: bold;
+          color: #666666;
+          text-transform: capitalize;
+          opacity: unset;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+.ant-table-row-expand-icon-cell {
+  position: sticky !important;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.input-link {
+  margin-top: 0px !important;
+  cursor: pointer;
+}
+
+.formulary-step {
+  width: 30.04px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f55b6;
+  border-radius: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}

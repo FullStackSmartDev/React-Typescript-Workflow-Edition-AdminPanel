@@ -1,0 +1,79 @@
+.left-side-area {
+    border: 1px solid #E5E5E5;
+    margin: 20px 0;
+    margin-right: 10px;
+
+    .heading-row {
+        padding: 10px 20px;
+        button {
+            float: right;
+        }
+        .btn-txt {
+            color:#2055B5;
+            font-size: 12px;
+        }
+        .heading {
+            color: #1D54B4;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            position: relative;
+            top: 6px;
+        }
+    }
+    .search-row {
+        padding: 10px;
+        color: #999999;
+        .ant-input-affix-wrapper {
+            border-radius: 25px;
+            color: #999999;
+            padding: 5px 17px;
+        }
+        input {
+            height: 20px;
+            margin-bottom: 0px;
+        }
+        .ant-input {
+            font-size: 11px;
+        }
+        .ant-input-suffix {
+            cursor: pointer;
+        }
+    }
+    .steps-area {
+        padding: 0 10px;
+        svg {
+            position: relative;
+            top: 2px;
+        }
+        .step-orange {
+            border: 1px solid #F65A1C;
+            background: #FFF5F0;
+            border-radius: 3px;
+            padding: 10px 13px;
+            margin: 5px 0;
+            color: #F65A1C;
+            svg {
+                fill: #F65A1C;
+            }
+        }
+        .step-green {
+            border: 1px solid #219653;
+            background: #D5FFD7;
+            border-radius: 3px;
+            padding: 10px 13px;
+            margin: 5px 0;
+            color: #219653;
+            svg {
+                fill: #219653;
+            }
+        }
+        .step-txt {
+            font-size: 12px;
+            padding-left: 15px;
+        }
+        .edit-svg {
+            float: right;
+        }
+    }
+}

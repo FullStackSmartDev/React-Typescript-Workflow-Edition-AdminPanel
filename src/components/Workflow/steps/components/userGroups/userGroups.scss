@@ -1,0 +1,140 @@
+.users-container {
+    margin: 20px 20px;
+
+    .add-grid {
+      padding-right: 4px;
+    }
+    .remove-grid {
+      padding-left: 4px;
+    }
+    .heading-area {
+        padding: 15px;
+        border: 1px solid #E5E5E5;
+        button {
+            float: right;
+        }
+    }
+    .heading {
+        color: #707683;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .save-btn{
+        font-size: 12px;
+        background-color: #fefefe;
+        color: #666666;
+        border: none;
+        height: 35px;
+        width: 75px !important;
+        padding: 0px 5px;
+        cursor: pointer;
+        .txt {
+            border-bottom: 1px dotted #666666;
+        }
+    }
+    .search-input-group {
+        padding-left: 0px !important;
+    }
+    .ant-input-affix-wrapper {
+        border: none;
+        width: 32%;
+        padding-right: 0px !important;
+    }
+    .ant-input-prefix{
+        margin-right: 10px;
+        svg {
+            width: 17px;
+            height: 17px;
+        }
+    }
+    input {
+        height: 23px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .available-states {
+      border: 1px solid #e5e5e5;
+      max-height: 220px;
+      height: 220px;
+      overflow: scroll;
+
+      .select-remove-search-all {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #e5e5e5;
+        padding: 20px;
+
+        svg {
+          padding-top: 5px;
+          margin-right: 5px;
+        }
+
+        .add-remove-all {
+          border-bottom: 1px dashed #707683;
+          text-transform: capitalize;
+        }
+
+        input {
+          border: none;
+          width: 290px;
+          outline: none;
+        }
+      }
+
+      .selected-available-heading {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+        padding-top: 10px;
+
+        ul {
+          padding-left: 20px !important;
+        }
+
+        li {
+          list-style: none;
+          color: #323c47;
+          font-size: 12px;
+        }
+      }
+
+      span {
+        font-size: 12px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #707683;
+      }
+
+      .available-state-list {
+        padding-right: 30px;
+        padding-top: 10px;
+
+        svg {
+          cursor: pointer;
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 20px !important;
+        }
+
+        li {
+          list-style: none;
+          color: #323c47;
+          font-size: 12px;
+        .top{
+            font-weight: 400;
+            font-size: 12px;
+        }
+        .bottom{
+          font-weight: 400;
+          font-size: 12px;
+          color: #707683;
+      }
+        }
+      }
+    }
+  }

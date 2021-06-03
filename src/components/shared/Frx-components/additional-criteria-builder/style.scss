@@ -1,0 +1,298 @@
+@import "./../../../../assets/style.scss";
+
+.custom-additional-criteria-builder {
+  .noAdditionalCriteria {
+    min-height: 446px;
+  }
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .row-wrapper {
+      display: flex;
+      margin: 15px;
+      .search-wrapper {
+        width: 95%;
+        background: #f9f9f9;
+        margin-left: 10px;
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        .additional-criteria-builder-accordion {
+          box-shadow: none;
+          .additional-criteria-builder-accordionsummary.Mui-expanded {
+            border-bottom: 1px solid #e5e5e5;
+          }
+          .MuiAccordionDetails-root {
+            padding: 0 !important;
+          }
+          .additional-criteria-builder-copy {
+            margin-left: auto;
+            margin-right: 20px;
+          }
+          .additional-criteria-builder-accordion-header {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.005em;
+            color: #1d54b4;
+          }
+          .drug-grid-popup-root__dialog {
+            min-height: 350px;
+            padding: 0px;
+            height: 100%;
+            .member-notes-popup-root__dialog__categories {
+              margin-top: 20px;
+
+              .MuiList-padding {
+                padding-top: 0px;
+                font-weight: $font-weight-normal;
+                font-size: $font-12;
+                line-height: 24px;
+
+                .member-notes-popup-root__category-list__item {
+                  height: 24px;
+                  margin: 5px 0px 5px 0px;
+                  padding: 0 0 0 20px;
+                  cursor: pointer;
+                  span {
+                    margin-right: 8px;
+                  }
+                }
+
+                .member-notes-popup-root__category-list__item__text {
+                  .MuiTypography-root {
+                    font-weight: $font-weight-normal;
+                    font-size: $font-12;
+                    line-height: 24px;
+                    color: $list-text-color;
+                  }
+                }
+
+                .member-notes-popup-root__category-list__item--active {
+                  height: 24px;
+                  margin: 5px 0px 5px 0px;
+                  padding: 0 0 0 20px;
+                  cursor: pointer;
+                  background: $category-active-list-bg-color;
+                }
+
+                .member-notes-popup-root__category-list__item__text--active {
+                  .MuiTypography-root {
+                    font-weight: $font-weight-normal;
+                    font-size: $font-12;
+                    line-height: 24px;
+                    color: $list-text-color;
+                  }
+                }
+              }
+            }
+
+            .member-notes-popup-root__dialog__category-notes {
+              display: inline-block;
+              border-left: 1px solid $member-notes-border-color;
+              width: 100%;
+
+              .right-content {
+                height: 100%;
+                position: relative;
+
+                .formWrappers {
+                  .formWrappers-content {
+                    min-height: 300px;
+                    .main-wrapper {
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: space-between;
+
+                      .row-wrapper {
+                        display: flex;
+                        margin: 15px;
+                        .search-wrapper.include {
+                          border: 2px solid #80c483;
+                        }
+                        .search-wrapper.exclude {
+                          border: 2px solid #e76262;
+                        }
+                        .search-wrapper {
+                          width: 840px;
+                          background: #f9f9f9;
+                          margin-left: 10px;
+
+                          box-sizing: border-box;
+                          border-radius: 5px;
+                          .panel-tooltip {
+                            margin-left: 5px;
+                            line-height: 1.8;
+                          }
+                          .search-form {
+                            background: #f9f9f9;
+                            padding: 20px;
+                            width: 100%;
+                            .MuiFormControlLabel-label,
+                            span {
+                              font-family: Roboto;
+                              font-style: normal;
+                              font-weight: normal;
+                              font-size: 12px;
+                              line-height: 25px;
+                              display: flex;
+                              align-items: center;
+                              letter-spacing: 0.01em;
+                              color: #000000;
+                            }
+                            .from-panel {
+                              display: flex;
+                              justify-content: space-between;
+                              button {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                padding: 3px 10px;
+                                width: 92px;
+                                height: 23px;
+                                background: #1d54b4;
+                                border-radius: 5px;
+                                span {
+                                  font-family: Roboto;
+                                  font-style: normal;
+                                  font-weight: 500;
+                                  font-size: 12px;
+                                  line-height: 14px;
+                                  color: #ffffff;
+                                }
+                              }
+                            }
+                          }
+                          .select-box .ant-select {
+                            width: 100%;
+                            min-width: 120px !important;
+                            .ant-select-selector {
+                              background-color: #e5e5e5;
+                              border-radius: 5px;
+                              .ant-select-selection-item {
+                                color: #323c47;
+                              }
+                            }
+                          }
+                        }
+                        .delete-wrapper,
+                        .arrow-wrapper {
+                          margin-left: 10px;
+                          margin-top: 15px;
+                        }
+                      }
+                    }
+                  }
+                  .noForms {
+                    min-height: 300px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  }
+                  .button-wrapper {
+                    height: 50px;
+                    border-top: 1px solid #e5e5e5;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 20px;
+                    background: white;
+                    .advanced-grid-search__btn-clear span {
+                      font-family: Roboto;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      line-height: 14px;
+                      display: flex;
+                      align-items: center;
+                      text-align: center;
+                      letter-spacing: 0.01em;
+                      color: #666666;
+                      text-transform: capitalize;
+                      margin-left: 0.5em;
+                    }
+                    .member-notes-popup-root__dialog__category-notes_form__submit-btn {
+                      height: 35px;
+                      width: 92px;
+                      text-align: center;
+                      margin: 0 0 0 10px;
+                      padding: 0;
+                      border-radius: 3px;
+                      font-style: normal;
+                      font-weight: bold;
+                      font-size: 12px;
+                      line-height: 35px;
+                      align-items: center;
+                      letter-spacing: 0.1px;
+                      color: #7192d1;
+                      border: 1px solid #7192d1;
+                      background: #ffffff;
+                      cursor: pointer;
+                      display: block;
+                    }
+                  }
+                }
+              }
+
+              .member-notes-popup-root__dialog__category-notes_form {
+                line-height: 80px;
+                margin: 0 0 0 auto;
+                display: flex;
+                justify-content: flex-end;
+                padding: 12px;
+
+                .member-notes-popup-root__dialog__category-notes_form__input-field {
+                  background: $white-color;
+                  border: 1px solid $member-notes-border-color;
+                  box-sizing: border-box;
+                  border-radius: 3px;
+                  margin: 0 10px 0 20px;
+                  width: 440px;
+                  height: 35px;
+                  padding: 9px 0px 10px 10px;
+                  font-style: normal;
+                  font-weight: $font-weight-normal;
+                  font-size: $font-12;
+                  line-height: 16px;
+                }
+
+                .member-notes-popup-root__dialog__category-notes_form__submit-btn {
+                  height: 35px;
+                  width: 92px;
+                  text-align: center;
+                  margin: 0 0 0 10px;
+                  padding: 0;
+                  border-radius: 3px;
+                  font-style: normal;
+                  font-weight: $font-weight-bold;
+                  font-size: $font-12;
+                  line-height: 35px;
+                  align-items: center;
+                  letter-spacing: 0.1px;
+                  color: rgb(113, 146, 209);
+                  border: 1px solid rgb(113, 146, 209);
+                  background: $white-color;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+      .delete-wrapper,
+      .arrow-wrapper {
+        margin-left: 10px;
+        margin-top: 15px;
+      }
+      .delete-wrapper {
+        button.delete-additional-criteria-btn {
+          border: 0px;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

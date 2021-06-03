@@ -1,0 +1,63 @@
+.formulary-tree-container {
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  border-radius: 5px;
+
+  .identificationTable {
+    border-right: 1px solid #e5e5e5;
+    padding: 20px;
+  }
+
+  .formulary-tree {
+    padding: 20px;
+  }
+}
+
+
+.adjudication-container {
+  .tree-checkbox-list {
+    margin-top: 12px;
+  }
+
+  .tree-value-container {
+    width: 100% !important;
+  }
+
+  .tree-node-link-container {
+    width: 300px !important;
+  }
+
+  .tree-meta-information {
+    display: flex;
+    margin-bottom: 6px;
+  }
+
+  .meta-info-input {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+    &__field {
+      width: 134px;
+      height: 20px;
+    }
+  }
+
+
+  .meta-info-dropdown {
+    display: flex;
+    align-items: center;
+
+    .ant-select-selector {
+      height: 22px !important;
+    }
+  }
+
+  .tree-node__body {
+    margin-top: 8px !important;
+  }
+
+}

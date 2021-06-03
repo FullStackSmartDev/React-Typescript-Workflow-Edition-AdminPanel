@@ -1,0 +1,57 @@
+.notes-conatiner{
+    padding: 5px;
+    .w-100{
+        width: 100%;
+    }
+    .add-btn{
+        float: right;
+        color: #ffffff;
+        background-color: #1D54B4;
+        border: 1px solid #1D54B4;
+        border-radius: 5px;
+        width: 50px;
+        padding: 5px;
+        margin:5px;
+
+    }
+    .comments{
+        margin-top: 50px;
+        .title{
+            color: #5d5d5d;
+        }
+        .notes{
+            width: 350px;
+            border: 1px lightgray solid;
+            border-radius: 5px;
+            margin: 5px;
+            margin-bottom: 0px;
+            h3{
+                width: 100%;
+                margin: 5px;
+                font-size: 12px;
+                font-weight: 500;
+                margin-left: 20px;
+            }
+            p{
+                width: 100%;
+                font-size: 12px;
+                font-weight: 400;
+                margin-left: 20px;
+                overflow-wrap: break-word;
+            }
+            .date{
+                color: #5d5d5d;
+            }
+            .avt{
+                margin: 10px;
+            }
+            .image {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+}
+.frx-dialog-root__save-btn{
+    display: none !important;
+}

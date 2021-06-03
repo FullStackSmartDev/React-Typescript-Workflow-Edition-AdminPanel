@@ -1,0 +1,127 @@
+.ModulesDetailsWrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .heading {
+    color: #707683;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .grid-container-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .grid-name-fields-wrapper {
+      display: flex;
+
+      .input-field-search--icon-wrapper {
+        display: flex;
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+        margin-right: 10px;
+        height: 35px;
+
+        span {
+          padding: 8px;
+        }
+
+        input {
+          padding: 0px;
+          border: none;
+          outline: none;
+          margin-left: 0px;
+          padding-top: 5px;
+          height: 30px;
+          width: 130px;
+        }
+      }
+    }
+
+    input {
+      width: 169px;
+      height: 35px;
+      border: 1px solid #e5e5e5;
+    }
+    .setleftMargin {
+      margin-left: 10px;
+    }
+
+    // .disaster-dropdown {
+    //   width: 171px !important;
+    //   height: 35px !important;
+    //   margin-left: 10px;
+    // }
+
+    .clear-search-btn-wrapper {
+      display: flex;
+      button {
+        background: #e5e5e5;
+        border-radius: 3px;
+        border: 1px solid #e5e5e5;
+        color: #aaaaaa;
+        text-transform: capitalize;
+        font-weight: normal;
+        font-size: 12px;
+        padding: 0px 25px;
+        height: 35px;
+      }
+    }
+  }
+
+  .modulesTabsWrapper {
+    .frx-mini-tabs-root
+      .frx-mini-tabs-root__tabs
+      .frx-mini-tabs-root__tabs__tab {
+      min-width: 90px !important;
+      min-height: 20px !important;
+    }
+
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+
+    .modulesSelection {
+      z-index: 9;
+      position: absolute;
+      width: 50%;
+      right: 80px;
+      top: 359px;
+      background: white;
+      border: 1px solid #e5e5e5;
+      .header {
+        padding: 30px !important;
+      }
+      .setleftMargin {
+        padding-left: 30px;
+      }
+    }
+
+    .modulesMiniTabs {
+      width: 90%;
+      float: left;
+    }
+
+    .action-btn {
+      justify-content: flex-end;
+      width: 10%;
+      float: left;
+      .modulesBtn {
+        border: 1px solid #2055b5;
+        border-radius: 5px;
+        width: 92px;
+        height: 35px;
+        color: #5f80b9;
+        float: right;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+      }
+
+      .modulesBtn:hover {
+        background: #ffffff;
+      }
+    }
+  }
+}

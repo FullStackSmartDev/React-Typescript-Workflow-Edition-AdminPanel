@@ -1,0 +1,62 @@
+.heading-menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 8px 15px;
+  border-bottom: 1px solid #e5e5e5;
+
+  .heading-wrapper {
+    h4 {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #2055b5;
+    }
+  }
+}
+.version-wrapper-green {
+  display: flex;
+  background: #d6ffd9;
+  border: 1px solid #219653;
+  border-radius: 3px;
+
+  .item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #11861a;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 3px;
+    }
+  }
+
+  span.ant-select-selection-placeholder {
+    font-weight: 500 !important;
+    font-size: 13px !important;
+  }
+}
+.formulary-versions-green {
+  .ant-select-selector {
+    background-color: #d6ffd9 !important;
+    height: 100% !important;
+    padding-top: 2.25px !important;
+    border-right: 1px solid #219653 !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+
+    .ant-select-selection-item,
+    .ant-select-selection-placeholder {
+      color: #219653 !important;
+      text-decoration: underline;
+      font-weight: 500;
+    }
+  }
+}

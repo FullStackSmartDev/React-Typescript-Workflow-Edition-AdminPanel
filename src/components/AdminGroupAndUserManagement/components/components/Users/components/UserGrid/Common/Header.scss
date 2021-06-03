@@ -1,0 +1,261 @@
+.formulary-tabs-info {
+  padding: 0px !important;
+  background-color: lightgray !important;
+  .user-container {
+    background-color: #ffffff;
+    padding: 15px;
+    .header {
+      background-color: #ffffff;
+      width: 100%;
+      height: 10%;
+      border: 0 !important;
+      display: flex;
+
+      .image {
+        width: 45px;
+        height: 45px;
+      }
+
+      .ml {
+        margin-left: 10px;
+      }
+      .name {
+        margin-left: 15px;
+        color: rgb(49, 50, 51);
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: none;
+      }
+
+      .pill1 {
+        margin-left: 15px;
+        background-color: green;
+        width: 70px;
+        text-align: center;
+        border-radius: 15px;
+        color: #ffffff;
+        padding: 3px;
+        font-size: 13px;
+        font-weight: 500;
+      }
+      .pill2 {
+        margin-left: 5px;
+        background-color: rgb(5, 127, 148);
+        width: 100px;
+        text-align: center;
+        border-radius: 15px;
+        color: #ffffff;
+        padding: 3px;
+        font-size: 13px;
+        font-weight: 500;
+      }
+      .pill3 {
+        margin-left: 5px;
+        background-color: rgb(61, 65, 61);
+        width: 60px;
+        text-align: center;
+        border-radius: 15px;
+        color: #ffffff;
+        padding: 3px;
+        font-size: 13px;
+        font-weight: 500;
+      }
+      .r-0 {
+        position: absolute;
+        right: 7%;
+      }
+      .end-container {
+        position: absolute;
+        right: 10%;
+        .box {
+          border: 1px solid green;
+          background-color: rgb(189, 252, 189);
+          border-radius: 3px;
+          padding: 5px;
+          width: 200px;
+          display: flex;
+          height: 40px;
+          justify-content: center;
+          .icn {
+            color: green;
+            font-size: 13px;
+            margin-top: 5px;
+          }
+          .icn2 {
+            color: green;
+            font-size: 15px;
+            margin-top: 5px;
+            margin-left: 15px;
+          }
+          .txt-deco {
+            color: green;
+            text-decoration: underline;
+            margin: 3px;
+          }
+        }
+      }
+    }
+    .row2 {
+      margin-top: 20px;
+      .r-0 {
+        position: absolute;
+        right: 3%;
+        margin-top: 8px;
+      }
+      .add-image {
+        width: 45px;
+        height: 45px;
+        font-size: 9px;
+        font-weight: 400;
+        text-align: center;
+        border-radius: 20px;
+        border: 0;
+      }
+      .w-content {
+        width: max-content;
+      }
+
+      .d-flex {
+        display: flex;
+        .text-input1 {
+          margin-left: 20px;
+          margin-right: 15px;
+          border-radius: 5px;
+          width: 200px;
+          height: 32px;
+          border: 1px solid silver;
+        }
+        .user-name {
+          margin-left: 17px;
+          color: slategray;
+          font-weight: 400;
+          text-transform: none;
+        }
+      }
+      .txt-label {
+        margin-left: 10px;
+        color: slategrey;
+        font-weight: 400;
+        margin-right: 10px;
+        text-transform: none;
+      }
+      .end-container {
+        position: absolute;
+        right: 10%;
+
+        .box2 {
+          border: 1px solid rgb(233, 122, 32);
+          background-color: rgb(250, 230, 211);
+          border-radius: 3px;
+          padding: 8px;
+          width: 300px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          .icn3 {
+            color: rgb(233, 122, 32);
+            font-size: 13px;
+            margin-top: 8px;
+          }
+          .icn4 {
+            color: rgb(233, 122, 32);
+            font-size: 15px;
+            margin-top: 8px;
+            margin-left: 20px;
+          }
+          .icn5 {
+            color: rgb(233, 122, 32);
+            font-size: 13px;
+            margin-top: 8px;
+            margin-left: 20px;
+          }
+          .txt-deco {
+            color: rgb(233, 122, 32);
+            text-decoration: underline;
+            margin: 3px;
+          }
+        }
+      }
+      .d-flex {
+        display: flex;
+      }
+      .select-box {
+        width: max-content !important;
+      }
+      .user-dropdown {
+        border-radius: 5px;
+      }
+      .ml-90 {
+        margin-left: 30%;
+      }
+      .underline {
+        color: #1d54b4;
+        text-decoration: underline;
+        margin-left: 5px;
+        margin-top: 3px;
+      }
+      .ml {
+        margin-left: 10px;
+      }
+      .ml-2 {
+        margin-left: 30px;
+      }
+      .ml-3 {
+        margin-left: 50px;
+      }
+      .date-picker {
+        border-radius: 5px;
+        height: 32px;
+        width: 141px;
+      }
+      .text-input {
+        border-radius: 5px;
+        // width: 171px;
+        height: 32px;
+        border: 1px solid silver;
+      }
+      .title {
+        color: slategray;
+        font-weight: 400;
+        margin-top: 3px;
+      }
+      .email {
+        color: slategray;
+        font-weight: 400;
+        margin-top: 3px;
+        position: absolute;
+        right: 5%;
+      }
+      .phn {
+        color: slategray;
+        font-weight: 400;
+        margin-top: 3px;
+        position: absolute;
+        right: 5%;
+      }
+      .save-btn {
+        color: #1d54b4;
+        border: 1px #1d54b4 solid;
+        border-radius: 5px;
+        position: absolute;
+        right: 5%;
+        margin: 0;
+      }
+      .padding-right {
+        padding-right: 80px;
+      }
+      .padding-left {
+        padding-left: 30px;
+      }
+    }
+  }
+}
+.grid-btn {
+  background-color: transparent;
+  color: #1d54b4;
+  border: 0;
+  .clr {
+    color: black;
+    margin-left: 3px;
+  }
+}

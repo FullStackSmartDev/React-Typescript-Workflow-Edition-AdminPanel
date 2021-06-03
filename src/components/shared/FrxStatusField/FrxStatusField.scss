@@ -1,0 +1,287 @@
+$not-available: #e76262;
+$selling: #5f80b9;
+$sell: #1fbbc4;
+$active-sells: #80c483;
+$hierarchy: #59b35e;
+$hierarchy-termed: rgba(248, 144, 144, 0.6);
+$purple: #684999;
+$yellow: #f4af64;
+$pink: #f89090;
+$gray: #707683;
+
+.status-field-block {
+  &__container {
+    height: 34px;
+    width: 77px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__variant-1 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $selling;
+      color: $selling;
+    }
+
+    &--fill {
+      background: $selling;
+      border: 1px solid $selling;
+      color: #ffffff;
+    }
+  }
+
+  &__variant-2 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $sell;
+      color: $sell;
+    }
+
+    &--fill {
+      background: $sell;
+      border: 1px solid $sell;
+      color: #ffffff;
+    }
+  }
+
+  &__variant-3 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $not-available;
+      color: $not-available;
+    }
+
+    &--fill {
+      background: $not-available;
+      border: 1px solid $not-available;
+      color: #ffffff;
+    }
+  }
+  &__variant-4 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $not-available;
+      color: $not-available;
+    }
+    &--fill {
+      background: #92b2eb;
+      border: 1px solid #92b2eb;
+      color: #ffffff;
+    }
+  }
+  &__variant-5 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $not-available;
+      color: $not-available;
+    }
+    &--fill {
+      background: #e5e5e5;
+      border: 1px solid #e5e5e5;
+      color: #323c47;
+    }
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+}
+
+.status-field-pill {
+  &__container {
+    height: 24px !important;
+    width: 60px !important;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__variant-1 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $selling;
+      color: $selling;
+    }
+
+    &--fill {
+      background: $selling;
+      border: 1px solid $selling;
+      color: #ffffff;
+    }
+  }
+
+  &__variant-2 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $sell;
+      color: $sell;
+    }
+
+    &--fill {
+      background: $sell;
+      border: 1px solid $sell;
+      color: #ffffff;
+    }
+  }
+
+  &__variant-3 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $not-available;
+      color: $not-available;
+    }
+
+    &--fill {
+      background: $not-available;
+      border: 1px solid $not-available;
+      color: #ffffff;
+    }
+  }
+
+  &__variant-4 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $not-available;
+      color: $not-available;
+    }
+
+    &--fill {
+      background: #684999; //$not-available;
+      border: 1px solid #684999; //$not-available;
+      color: #ffffff;
+    }
+  }
+  &__variant-5 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid #707683;
+      color: #707683;
+    }
+    &--fill {
+      background: #707683; //$not-available;
+      border: 1px solid #707683; //$not-available;
+      color: #ffffff;
+    }
+  }
+  &__variant-6 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid #707683;
+      color: #707683;
+    }
+    &--fill {
+      background: #92b2eb; //$not-available;
+      border: 1px solid #92b2eb; //$not-available;
+      color: #ffffff;
+    }
+  }
+  &__variant-7 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $active-sells;
+      color: #707683;
+    }
+    &--fill {
+      background: $active-sells; //$not-available;
+      border: 1px solid $active-sells; //$not-available;
+      color: #ffffff;
+    }
+  }
+  &__variant-8 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $hierarchy;
+      color: #707683;
+    }
+    &--fill {
+      background: $hierarchy; //$not-available;
+      border: 1px solid $hierarchy; //$not-available;
+      color: #ffffff;
+    }
+  }
+  &__variant-9 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $hierarchy-termed;
+      color: #707683;
+    }
+    &--fill {
+      background: $hierarchy-termed; //$not-available;
+      border: 1px solid $hierarchy-termed; //$not-available;
+      color: #ffffff;
+    }
+  }
+  &__variant-10 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $purple;
+      color: #707683;
+    }
+    &--fill {
+      background: $purple;
+      border: 1px solid $purple;
+      color: #ffffff;
+    }
+  }
+  &__variant-11 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $yellow;
+      color: #707683;
+    }
+    &--fill {
+      background: $yellow;
+      border: 1px solid $yellow;
+      color: #ffffff;
+    }
+  }
+  &__variant-12 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $pink;
+      color: #707683;
+    }
+    &--fill {
+      background: $pink;
+      border: 1px solid $pink;
+      color: #ffffff;
+    }
+  }
+  &__variant-13 {
+    &--outline {
+      background: #ffffff;
+      border: 1px solid $gray;
+      color: #707683;
+    }
+    &--fill {
+      background: $gray;
+      border: 1px solid $gray;
+      color: #ffffff;
+    }
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize !important;
+  }
+}

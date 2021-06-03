@@ -1,0 +1,183 @@
+.workflow-info-container{
+width: 100%;
+padding-top: 50px;
+padding-bottom: 20px;
+
+.save-btn-wrapper {
+    padding: 50px 0px 0px 0px;
+
+    .primary-btn {
+      background: #1f55b6 !important;
+      color: #ffffff !important;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      border: none;
+    }
+  }
+
+.workflow-controls-wrapper{
+    padding-left: 30px;
+    width: 100%;
+    .set-top-margin{
+        margin-top: 50px;
+    }
+    .set-top-region-margin{
+        margin-top: 30px;
+    }
+
+    .custom-time{
+        .ant-select-selection-item{
+            padding-right: 0px !important;
+            line-height: 42px;
+            text-align: center;
+        }
+        .ant-select-arrow{
+            display: none !important;
+        }
+        .ant-select-selector{
+            padding: 0px !important;
+        }
+    }
+
+    
+
+    .checkbox-wrapper{
+        width: 20%;
+        float: left;
+        span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.01em;
+            color: #323C47;
+        }
+        .custom-checkbox{
+            margin-right:10px;
+            margin-top: 10px;
+        }
+    }
+    
+
+    Label{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;       
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+        color: #323C47;
+        span{
+            color: red;
+        }
+    }
+    .custom-radio{
+        .label{
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        line-height: 14px !important;
+        letter-spacing: 0.01em !important;
+        color: #323C47 !important;
+    }
+    }
+    .input-control{
+        width: 285px;
+        height: 42px;
+        border-color: #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        }
+    .input-dropdown-control{
+        width: 285px;
+        height: 42px;
+        border-color: #C4C4C4;
+        box-sizing: border-box;
+       
+        .ant-select-selector{
+            height: 42px !important;
+            border-radius: 5px !important;
+            border-color: #C4C4C4 !important;
+            box-sizing: border-box !important;
+            .ant-select-selection-item{
+                line-height: 42px !important;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.01em;
+                color: #707683;
+            }
+        }
+        
+    }
+    .input-area-control{
+        border-color: #C4C4C4;
+        border-radius: 5px;
+        width: 285px;
+        }
+    .input-date-control{
+        border-color: #dbcbcb;
+        border-radius: 5px;
+        width: 307px;
+        height: 42px;
+        float: left;
+    }
+    .input-time-control{
+        position: relative;
+        width: 61px;
+        height: 42px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        float: left;
+        &.set-left-margin{
+            margin-left: 10px;
+        }
+        
+       .ant-picker-suffix{
+           display: none;
+       }
+       .ant-picker-dropdown {
+        width: 63px !important;
+    }
+       .input-time-control-wrapper{
+        position: relative;
+        float: left;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: #323C47;
+        &.set-left-margin{
+            margin-left: 10px;
+        }
+       
+       
+       }
+
+       .ant-select-arrow {
+        top: 63% !important;
+        }
+        .ant-select-selector {            
+            height: 95% !important;
+            padding-top: 7px;
+            border: none;
+        }
+    }
+    .time-seprator{
+        position: relative;
+        float: left;
+        height: 42px;
+        width: 15px;
+        text-align: center;
+        line-height: 42px;
+       }
+
+    }
+}

@@ -1,0 +1,96 @@
+.new-container {
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid lightgray;
+
+    .disaster-override-grid-container {
+      border-radius: 5px;
+      padding: 10px 0px;
+      .grid-container-header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid lightgray;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        .grid-name-fields-wrapper {
+          display: flex;
+        }
+        form.example input {
+          border: 0;
+          height: 29px !important;
+          width: 140px !important;
+          margin: 0;
+        }
+        form.example .anticon {
+          font-size: 17px;
+          padding-left: 10px;
+          color: silver;
+        }
+        span {
+          text-transform: uppercase;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 30px;
+          color: #1d54b4;
+        }
+
+        input {
+          width: 171px !important;
+          height: 32px !important;
+          border: 1px solid #e5e5e5;
+          margin-left: 70px;
+        }
+
+        .disaster-dropdown {
+          width: 171px !important;
+          height: 35px !important;
+          margin-left: 10px;
+          span {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 30px;
+            color: silver;
+          }
+        }
+
+        .add-new-btn {
+          justify-content: flex-end;
+            padding-top: 0 !important;
+            margin-right: 10px;
+          .add-new-disaster-override {
+            border: 1px solid #1d54b4;
+            border-radius: 5px;
+            padding: 1px 15px;
+            width: max-content;
+            height: 33px;
+          }
+
+          span {
+            font-weight: normal;
+            text-transform: capitalize;
+          }
+
+          .add-new-disaster-override:hover {
+            background: #ffffff;
+          }
+        }
+      }
+      .frx-grid-container {
+        margin: 10px;
+      }
+      .frx-grid__grid-block {
+        padding: 10px 0px;
+      }
+      .status-field-pill__container {
+        width: 100px !important;
+      }
+      .input-link {
+        text-decoration: underline solid !important;
+        color: #1d54b4;
+        font-weight: 500;
+        font-size: 12px;
+        display: block;
+        margin-top: 18px;
+      }
+    }
+  }

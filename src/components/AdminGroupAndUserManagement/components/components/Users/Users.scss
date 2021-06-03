@@ -1,0 +1,44 @@
+.formulary-tabs-info {
+  padding: 0px !important;
+  background-color: lightgray !important;
+  overflow: hidden !important;
+  .user-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+    height: max-content;
+    .table-container {
+      width: 100%;
+      .ant-table {
+        height: 236px;
+        overflow-y: scroll;
+        .ant-table-container {
+          .ant-table-content {
+            table {
+              .ant-table-thead {
+                .ant-table-cell {
+                  text-align: center;
+                  font-size: 12px;
+                  text-transform: uppercase;
+                  color: #707683;
+                }
+              }
+              .ant-table-cell {
+                text-align: center;
+                font-size: 12px;
+                color: #323C47;
+                .chk-icon {
+                  width: 19px;
+                  height: 19px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}
+
+

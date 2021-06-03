@@ -1,0 +1,47 @@
+.rename-container{
+    .btn-container{
+        background-color: #ffffff;
+        border: 1px solid #1D54B4;
+        border-radius: 3px;
+        padding: 3px;
+        width: max-content;
+        margin-left: 3%;
+        .rename-btn{
+            background-color: #1D54B4;
+            color: #ffffff;
+            border-radius: 3px;
+            border: #1D54B4;
+            font-weight: bold;
+        }
+    }
+    .content-container{
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        margin: 3%;
+        height: 420px;
+        .mlt{
+            margin-left: 1%;
+            margin-top: 1%;
+        }
+        .center{
+            text-align: center;
+        }
+        .mlt-2{
+            margin-left: 20px;
+            margin-top: 1%;
+        }
+        .pb{
+          padding-bottom: 5px;
+        }
+        .rename-input{
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        .rename-input:hover{
+            border: 1px solid #1D54B4;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+    }
+}

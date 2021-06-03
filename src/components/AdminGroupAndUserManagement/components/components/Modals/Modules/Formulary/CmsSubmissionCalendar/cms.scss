@@ -1,0 +1,114 @@
+.cms-container{
+    height: 2600px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    margin: 20px;
+    .title{
+        font-size:12px;
+        color: #1d54b4;
+        margin-left: 10px;
+    }
+    
+    .mt{
+        margin-top: 25px;
+    }
+    .cms-dropdown{
+        width: 171px !important;
+        height: 35px !important;
+        margin-top:20px;
+    }
+    .add-button{
+        border: 1px solid #1d54b4;
+        color: #1d54b4;
+        height: 35px !important;
+        border-radius: 5px;
+        padding: 1px 15px;
+        background: #ffffff;
+        margin-top:20px;
+    }
+    .title-1{
+        font-size:14px;
+        color: #1d54b4;
+        margin-left: 10px;
+    }
+    
+    .cms-content{
+        display: flex; 
+        .mar{
+            margin-left: 10px;
+            margin-top: 10px;
+        } 
+        .col{
+            border: 1px solid rgb(214, 214, 214);
+            width: 450px !important;
+            height: 60px !important;
+            padding: 15px;
+            .date-picker{
+                height: 40px !important;
+                background-color: #fefefe;
+                margin-left: 22%;
+                width: 271px !important;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+          
+        }
+        .date{
+            height: 40px !important;
+
+        }
+        .selected-date{
+            background-color: rgb(240, 235, 235);
+            height: 40px !important;
+            margin-left: 10px;
+            border-radius: 5px;
+            border: 1px solid silver;
+            width:120px;
+            text-align: center;
+
+        }
+        .ml{
+            margin: 10px;
+        }
+        
+  }
+}
+.main-container{
+    height: 1600px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    .inner-container{
+        height: 762px;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 5px; 
+        margin:10px;
+    }
+    .title-1{
+        font-size:14px;
+        color: #1d54b4;
+        margin-left: 10px;
+        font-weight: lighter;
+    }
+    .mar{
+        margin-left: 10px;
+        margin-top: 10px;
+    } 
+    .col{
+        border: 1px solid rgb(214, 214, 214);
+        width: 450px !important;
+        height: 60px !important;
+        padding: 15px;
+        .date-picker{
+            height: 40px !important;
+            background-color: #fefefe;
+            margin-left: 22%;
+            width: 271px !important;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+      
+    }
+}
